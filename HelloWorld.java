@@ -5,6 +5,5 @@
 
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, Welcome to merge conflicts!");
-    }
+        System.out.println("Hello, Welcome to Java!");    }
 }
