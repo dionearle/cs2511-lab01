@@ -18,7 +18,7 @@ public class Average {
             for(i = 0; i < nums.length; i++) {
             	sum += nums[i];
             }
-            result = (sum / nums.length);
+            result = ((float)sum / nums.length);
             return result;
         }
 
@@ -27,9 +27,9 @@ public class Average {
         	int[] array;
         	array = new int[3];
         	
-        	array[0] = 1;
-        	array[1] = 2;
-        	array[2] = 3;
+        	array[0] = 10;
+        	array[1] = 5;
+        	array[2] = 1;
         	Average average = new Average();
 			float answer = average.computeAverage(array);
         	
