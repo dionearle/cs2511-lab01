@@ -24,12 +24,8 @@ public class Average {
 
         public static void main(String[] args) {
 
-        	int[] array;
-        	array = new int[3];
-        	
-        	array[0] = 10;
-        	array[1] = 5;
-        	array[2] = 1;
+        	int[] array = {1, 2, 3};
+
         	Average average = new Average();
 			float answer = average.computeAverage(array);
         	
